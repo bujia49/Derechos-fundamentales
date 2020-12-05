@@ -1,0 +1,130 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "serverlessrepo-carta-dere-alexaskillskitnodejsfact-SVQI14T58UU8",
+          "sourceDir": "lambda\\eu-west-1_serverlessrepo-carta-dere-alexaskillskitnodejsfact-SVQI14T58UU8"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "es-ES": {
+          "privacyPolicyUrl": "https://gist.github.com/germanviscuso/3ac94eaaf676c9cd8b5f06ac55bc934e#file-politicadeprivacidadyterminosdeuso",
+          "termsOfUseUrl": "https://gist.github.com/germanviscuso/3ac94eaaf676c9cd8b5f06ac55bc934e#file-politicadeprivacidadyterminosdeuso"
+        },
+        "es-MX": {
+          "privacyPolicyUrl": "https://gist.github.com/germanviscuso/3ac94eaaf676c9cd8b5f06ac55bc934e#file-politicadeprivacidadyterminosdeuso",
+          "termsOfUseUrl": "https://gist.github.com/germanviscuso/3ac94eaaf676c9cd8b5f06ac55bc934e#file-politicadeprivacidadyterminosdeuso"
+        },
+        "es-US": {
+          "privacyPolicyUrl": "https://gist.github.com/germanviscuso/3ac94eaaf676c9cd8b5f06ac55bc934e#file-politicadeprivacidadyterminosdeuso",
+          "termsOfUseUrl": "https://gist.github.com/germanviscuso/3ac94eaaf676c9cd8b5f06ac55bc934e#file-politicadeprivacidadyterminosdeuso"
+        }
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "name": "Derechos fundamentales de la Unión Europea",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/7ec3/564371840fe840d399b2058b2c374f68/APP_ICON?versionId=WRsDdJabtckLpltbVSBrVwLkrM0NUdff&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191124T181924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=99ca6d86c244ccaecbc31a3d386bdf3b87fe97b6b53d8f38e150b59e4957d649",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4bf9/ba24639fc8214836a43b9bba9f26102a/APP_ICON_LARGE?versionId=aY3zl4W52l31UfsrwYDxchnfNOx7Y2sZ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191124T181924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=23127d1a3cc391169c71aa74cf56d322d9a3d3269422eca7a9eb9b7dcbf1d881",
+          "summary": "Lectura de los 54 artículos, por artículo, aleatoriamente o por tipo",
+          "description": "Para oír un artículo di ' dime un artículo' o ' dime el artículo número 5' o también puedes pedir que te diga artículos por temáticas, por ejemplo: 'dime un artículo sobre igualdad', las temáticas son : ( Dignidad. Libertades. Igualdad. Solidaridad. Ciudadanía. Justicia. Disposiciones generales. Carta de los derechos fundamentales). Si no recuerdas bien la mecánica puedes pedir ayuda y si deseas abandonar la skill puedes decir 'salir'.",
+          "examplePhrases": [
+            "Alexa, abre derechos fundamentales",
+            "Alexa, abre derechos fundamentales y dime el artículo número 5",
+            "Alexa, abre derechos fundamentales y dime un artículo dignidad"
+          ],
+          "keywords": [
+            "derechos",
+            "fundamentales",
+            "unión",
+            "europea",
+            "artículos",
+            "derechos",
+            "normativa",
+            "unión",
+            "europea"
+          ]
+        },
+        "es-US": {
+          "name": "Derechos fundamentales de la Unión Europea",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/f022/395e80c5bfeb48889124bc75bf0ef0d0/APP_ICON?versionId=DBgUaXWDQ64FW9ImvrT6uvJZR7Hnwy2m&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191124T181924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f743725623fb2f2dda28eadeff6c6ea5a9820639a8c281ca523837b8b6ceff7a",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e58c/fc831b66a77448029043280803b11818/APP_ICON_LARGE?versionId=E_10IlwwOwqnK5cCzwzVOD1j8H47Vk4D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191124T181924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8883cf3b147450e88adf2eec4df18442d06411ebfcde0b99c6d09900c1e0a207",
+          "summary": "Lectura de los 54 artículos, por artículo, aleatoriamente o por tipo",
+          "description": "Para oír un artículo di ' dime un artículo' o ' dime el artículo número 5' o también puedes pedir que te diga artículos por temáticas, por ejemplo: 'dime un artículo sobre igualdad', las temáticas son : ( Dignidad. Libertades. Igualdad. Solidaridad. Ciudadanía. Justicia. Disposiciones generales. Carta de los derechos fundamentales). Si no recuerdas bien la mecánica puedes pedir ayuda y si deseas abandonar la skill puedes decir 'salir'.",
+          "examplePhrases": [
+            "Alexa, abre derechos fundamentales",
+            "Alexa, abre derechos fundamentales y dime el artículo número 5",
+            "Alexa, abre derechos fundamentales y dime un artículo dignidad"
+          ],
+          "keywords": [
+            "derechos",
+            "fundamentales",
+            "unión",
+            "europea",
+            "artículos",
+            "derechos",
+            "normativa",
+            "unión",
+            "europea"
+          ]
+        },
+        "es-MX": {
+          "name": "Derechos fundamentales de la Unión Europea",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/31c6/2816565969104e2da81c6a84c099449a/APP_ICON?versionId=._DUHEht7prbx97UYDvRQc6LrZSLaraZ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191124T181924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=624515e040f4d48def95bd6d1cb499bf7374efa6448bb1a3836524f71d2e5302",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4d74/d6db02e0be1843638f9234d4bec7fde1/APP_ICON_LARGE?versionId=Tb4_4DGBfpgm9cpuicctQ6fl7onv3d97&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191124T181924Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1c1cb803cf02ea2bb911c2de7cee71a02af00188136898d5936d5b76dd4ffcfa",
+          "summary": "Lectura de los 54 artículos, por artículo, aleatoriamente o por tipo",
+          "description": "Para oír un artículo di ' dime un artículo' o ' dime el artículo número 5' o también puedes pedir que te diga artículos por temáticas, por ejemplo: 'dime un artículo sobre igualdad', las temáticas son : ( Dignidad. Libertades. Igualdad. Solidaridad. Ciudadanía. Justicia. Disposiciones generales. Carta de los derechos fundamentales). Si no recuerdas bien la mecánica puedes pedir ayuda y si deseas abandonar la skill puedes decir 'salir'.",
+          "examplePhrases": [
+            "Alexa, abre derechos fundamentales",
+            "Alexa, abre derechos fundamentales y dime el artículo número 5",
+            "Alexa, abre derechos fundamentales y dime un artículo dignidad"
+          ],
+          "keywords": [
+            "derechos",
+            "fundamentales",
+            "unión",
+            "europea",
+            "artículos",
+            "derechos",
+            "normativa",
+            "unión",
+            "europea"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Puedes pedir un artículo en concreto del 1 al 54 ambos incluidos por ejemplo: 'dime el artículo numero 1', existe un filtro de rango por si se dice un número mayor.\nPuedes pedir un artículo aleatorio 'dime un artículo', hay más opciones si pides ayuda, también puedes pedir que te de un artículo por temática (Dignidad, libertades, igualdad, solidaridad, ciudadanía, justicia, disposiciones generales, carta de los derechos fundamentales), por ejemplo: 'dime un artículo dignidad' explicará cuantos artículos engloba y dirá uno de ellos al azar. \nTodo esto se verá reforzado por el texto que aparece en un smartphone con la app Alexa.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": [
+        "ES",
+        "AD",
+        "BO",
+        "CL",
+        "CO",
+        "DO",
+        "SV",
+        "CR",
+        "EC",
+        "HN",
+        "MX",
+        "PA",
+        "NI",
+        "PE",
+        "PY",
+        "VE",
+        "UY"
+      ]
+    }
+  }
+}

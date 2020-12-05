@@ -1,0 +1,39 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.1ac75424-579d-4c4d-8bbb-2cefc84161c3",
+      "was_cloned": true,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "9f661d607aceaed4b7325167c61cda1a"
+        },
+        "interactionModel": {
+          "es-ES": {
+            "eTag": "d4e59814fc2055c2d05ff91fe0d0b4f4"
+          },
+          "es-US": {
+            "eTag": "aa2965a5caf877f351d3f9b70891081c"
+          },
+          "es-MX": {
+            "eTag": "418a6bc1cec6b06ec113c2953ac141c1"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:eu-west-1:525935192858:function:serverlessrepo-carta-dere-alexaskillskitnodejsfact-SVQI14T58UU8",
+            "awsRegion": "eu-west-1",
+            "functionName": "serverlessrepo-carta-dere-alexaskillskitnodejsfact-SVQI14T58UU8",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "706ed783-b932-4836-80e7-2da46b8436ba",
+            "codeUri": "lambda/eu-west-1_serverlessrepo-carta-dere-alexaskillskitnodejsfact-SVQI14T58UU8",
+            "handler": "index.handler",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}

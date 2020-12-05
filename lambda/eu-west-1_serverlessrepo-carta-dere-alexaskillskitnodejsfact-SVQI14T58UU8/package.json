@@ -1,0 +1,14 @@
+{
+  "name": "derechos-fundamentales",
+  "version": "1.0.0",
+  "description": "Esta skill te dirá cada artículo de los derechos fundamentales de la Unión Europea, también podrás consultar los artículos por temas (Dignidad. libertad. Igualdad. Solidaridad. Ciudadanía. Justicia. Disposiciones generales).Además puedes pedir que te lea la carta de los derechos fundamentales.",
+  "main": "Derechos fundamentales.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "derechos"
+  ],
+  "author": "Miguel Angel",
+  "license": "ISC"
+}

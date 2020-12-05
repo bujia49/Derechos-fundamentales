@@ -1,0 +1,724 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "derechos fundamentales",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "fuera",
+            "salir",
+            "cerrar",
+            "cancelar",
+            "cancela"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda",
+            "ayudame",
+            "cómo se pide",
+            "cómo pido eso",
+            "no se que decir",
+            "no se",
+            "que digo",
+            "que tengo que decir",
+            "échame un cable"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "acaba",
+            "finaliza",
+            "termina",
+            "para"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "DimeUnArticuloIntent",
+          "slots": [
+            {
+              "name": "numero",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{pedir} {enlace} artículo {numero}",
+                "{enlace} artículo {numero}"
+              ]
+            },
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            }
+          ],
+          "samples": [
+            "{pedir} {enlace} artículo {numero}",
+            "{pedir} {enlace} {numero}",
+            "{enlace} {numero}",
+            "{enlace} artículo {numero}",
+            "{enlace} artículo número {numero}",
+            "{pedir} {enlace} número {numero}",
+            "{pedir} {enlace} artículo número {numero}",
+            "artículo número {numero}",
+            "artículo {numero}"
+          ]
+        },
+        {
+          "name": "ArticuloAleatorioIntent",
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            }
+          ],
+          "samples": [
+            "{pedir} {enlace} al azar",
+            "{enlace} artículo ",
+            "{enlace} al azar",
+            "{pedir} al azar",
+            "{enlace} artículo al azar",
+            "{enlace} azar",
+            "{pedir} {enlace} artículo"
+          ]
+        },
+        {
+          "name": "DignidadIntent",
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            },
+            {
+              "name": "TenerOHaber",
+              "type": "TenerOHaberType"
+            }
+          ],
+          "samples": [
+            "{pedir} {enlace} artículo sobre dignidad",
+            "artículos dignidad",
+            "{enlace} artículos dignidad {TenerOHaber}",
+            "{pedir} {enlace} artículo dignidad",
+            "{pedir} dignidad",
+            "dignidad",
+            "{pedir} artículos de dignidad",
+            "cuales son los artículos de dignidad",
+            "{enlace} artículos {TenerOHaber}"
+          ]
+        },
+        {
+          "name": "LibertadesIntent",
+          "slots": [
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            },
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            }
+          ],
+          "samples": [
+            "artículos libertad",
+            "{pedir} {enlace} artículo sobre libertad",
+            "cuales son los artículos de libertad",
+            "cuales son los artículos de libertades",
+            "{pedir} artículos de libertad",
+            "{pedir} artículos de libertades",
+            "libertad",
+            "libertades",
+            "{pedir} libertad",
+            "{pedir} libertades",
+            "{pedir} {enlace} artículo libertad",
+            "{pedir} {enlace} artículo libertades"
+          ]
+        },
+        {
+          "name": "IgualdadIntent",
+          "slots": [
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            },
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "TenerOHaber",
+              "type": "TenerOHaberType"
+            }
+          ],
+          "samples": [
+            "artículos igualdad",
+            "{pedir} {enlace} artículo sobre igualdad",
+            "{enlace} artículos {TenerOHaber} igualdad",
+            "{pedir} artículos de igualdad",
+            "igualdad",
+            "{pedir} igualdad",
+            "{pedir} {enlace} artículo igualdad",
+            "cuales son los artículos de igualdad",
+            "{enlace} artículos igualdad {TenerOHaber}"
+          ]
+        },
+        {
+          "name": "SolidaridadIntent",
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            },
+            {
+              "name": "TenerOHaber",
+              "type": "TenerOHaberType"
+            }
+          ],
+          "samples": [
+            "artículos solidaridad",
+            "{pedir} {enlace} artículo sobre solidaridad",
+            "{enlace} artículos {TenerOHaber} solidaridad",
+            "cuales son los artículos de solidaridad",
+            "{pedir} artículos de solidaridad",
+            "solidaridad",
+            "{pedir} solidaridad",
+            "{pedir} {enlace} artículo solidaridad",
+            "{enlace} artículos solidaridad {TenerOHaber}"
+          ]
+        },
+        {
+          "name": "CiudadaniaIntent",
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            },
+            {
+              "name": "TenerOHaber",
+              "type": "TenerOHaberType"
+            }
+          ],
+          "samples": [
+            "artículos ciudadanía",
+            "{pedir} {enlace} artículo sobre ciudadanía",
+            "{enlace} artículos {TenerOHaber} ciudadanía",
+            "cuales son los artículos de ciudadanía",
+            "{pedir} artículos de ciudadanía",
+            "ciudadanía",
+            "{pedir} ciudadanía",
+            "{pedir} {enlace} artículo ciudadanía",
+            "{enlace} artículos ciudadanía {TenerOHaber}"
+          ]
+        },
+        {
+          "name": "JusticiaIntent",
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            },
+            {
+              "name": "TenerOHaber",
+              "type": "TenerOHaberType"
+            }
+          ],
+          "samples": [
+            "{enlace} artículos justicia {TenerOHaber}",
+            "{pedir} {enlace} artículo sobre justicia",
+            "{pedir} {enlace} artículo justicia",
+            "{pedir} justicia",
+            "justicia",
+            "{pedir} artículos de justicia",
+            "cuales son los artículos de justicia",
+            "{enlace} artículos {TenerOHaber} justicia"
+          ]
+        },
+        {
+          "name": "CartaDerechosFundamentalesIntent",
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            }
+          ],
+          "samples": [
+            "{pedir} {enlace} carta de derechos",
+            "{pedir} {enlace} carta de derechos fundamentales",
+            "{pedir} {enlace} derechos fundamentales",
+            "derechos fundamentales de la unión europea",
+            "{pedir} {enlace} derechos",
+            "{pedir} {enlace} carta"
+          ]
+        },
+        {
+          "name": "DisposicionesGeneralesIntent",
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType"
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType"
+            },
+            {
+              "name": "TenerOHaber",
+              "type": "TenerOHaberType"
+            }
+          ],
+          "samples": [
+            "{pedir} {enlace} generales",
+            "generales",
+            "{enlace} artículos disposiciones generales {TenerOHaber}",
+            "{pedir} {enlace} artículo sobre disposiciones generales",
+            "{pedir} {enlace} artículo disposiciones generales",
+            "{pedir} disposiciones generales",
+            "disposiciones generales",
+            "disposiciones",
+            "{pedir} artículos de disposiciones generales",
+            "cuales son los artículos de disposiciones generales",
+            "{enlace} artículos {TenerOHaber} disposiciones generales"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Décima",
+                "synonyms": [
+                  "décimo",
+                  "décima"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Novena",
+                "synonyms": [
+                  "noveno",
+                  "novena"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Octava",
+                "synonyms": [
+                  "octava",
+                  "octavo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Séptima",
+                "synonyms": [
+                  "séptima",
+                  "séptimo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sexta",
+                "synonyms": [
+                  "sexta",
+                  "sexto"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Quinta",
+                "synonyms": [
+                  "quinta",
+                  "quinto"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Cuarta",
+                "synonyms": [
+                  "cuarto",
+                  "cuarta"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Tercera",
+                "synonyms": [
+                  "tercero",
+                  "tercera"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Segunda",
+                "synonyms": [
+                  "segunda",
+                  "segundo"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Primera",
+                "synonyms": [
+                  "primero",
+                  "primera"
+                ]
+              }
+            }
+          ],
+          "name": "Numerando"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "transitorias",
+                "synonyms": [
+                  "transitoria"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "adicionales",
+                "synonyms": [
+                  "adicional"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "disposición derogativa",
+                "synonyms": [
+                  "derogativa"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "disposición final",
+                "synonyms": [
+                  "final"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "disposiciones transitorias",
+                "synonyms": [
+                  "disposición transitoria"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "disposiciones adicionales",
+                "synonyms": [
+                  "disposición adicional"
+                ]
+              }
+            }
+          ],
+          "name": "disposiciones"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "recite",
+                "synonyms": [
+                  "recita",
+                  "recítame",
+                  "recíteme",
+                  "recitar"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "léeme",
+                "synonyms": [
+                  "leanos",
+                  "leame",
+                  "leer",
+                  "lea",
+                  "lee"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "dame",
+                "synonyms": [
+                  "deme"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "dime",
+                "synonyms": [
+                  "decir",
+                  "diga",
+                  "dígame",
+                  "di"
+                ]
+              }
+            }
+          ],
+          "name": "pedirType"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cuales",
+                "synonyms": [
+                  "cual"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "que"
+              }
+            },
+            {
+              "name": {
+                "value": "son"
+              }
+            },
+            {
+              "name": {
+                "value": "otro",
+                "synonyms": [
+                  "mas",
+                  "otros"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "el",
+                "synonyms": [
+                  "los",
+                  "las",
+                  "la"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "un",
+                "synonyms": [
+                  "unos",
+                  "uno"
+                ]
+              }
+            }
+          ],
+          "name": "enlaceType"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "eran",
+                "synonyms": [
+                  "son"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tiene",
+                "synonyms": [
+                  "tienes",
+                  "tenían",
+                  "tenía"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "hay",
+                "synonyms": [
+                  "había",
+                  "habían"
+                ]
+              }
+            }
+          ],
+          "name": "TenerOHaberType"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "CiudadaniaIntent",
+          "confirmationRequired": true,
+          "prompts": {
+            "confirmation": "Confirm.Intent.7345088694"
+          },
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "TenerOHaber",
+              "type": "TenerOHaberType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "JusticiaIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "pedir",
+              "type": "pedirType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "TenerOHaber",
+              "type": "TenerOHaberType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "DimeUnArticuloIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "numero",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1450468278286.1110666995843"
+              }
+            },
+            {
+              "name": "pedir",
+              "type": "pedirType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "enlace",
+              "type": "enlaceType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ],
+          "delegationStrategy": "ALWAYS"
+        }
+      ],
+      "delegationStrategy": "SKILL_RESPONSE"
+    },
+    "prompts": [
+      {
+        "id": "Confirm.Intent.7345088694",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Estas seguro?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1450468278286.1110666995843",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "hay cincuenta y cuatro articulos, que artículo quieres que te lea?"
+          },
+          {
+            "type": "PlainText",
+            "value": "que artículo quieres?"
+          },
+          {
+            "type": "PlainText",
+            "value": "dime el número de artículo"
+          },
+          {
+            "type": "PlainText",
+            "value": "no me has dicho que número de artículo quieres"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "2"
+}
